@@ -1,0 +1,1 @@
+print ("hello, Day 1 of docker practice")

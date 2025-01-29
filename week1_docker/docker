@@ -1,0 +1,9 @@
+
+
+#docker file
+FROM python:3.9-slim
+
+COPY hello_ml.py /app/hello_ml.py
+WORKDIR /app
+
+CMD ["python", "hello_ml.py"]
